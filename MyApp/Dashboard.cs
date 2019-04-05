@@ -16,5 +16,45 @@ namespace MyApp
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            panel.Height = button2.Height;
+            panel.Top = button2.Top;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            panel.Height = button3.Height;
+            panel.Top = button3.Top;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            panel.Height = button1.Height;
+            panel.Top = button1.Top;
+            
+            
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            panel.Height = button4.Height;
+            panel.Top = button4.Top;
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            panel.Height = button5.Height;
+            panel.Top = button5.Top;
+        }
+
+       
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            panel.Height = button6.Height;
+            panel.Top = button6.Top;
+        }
     }
 }
