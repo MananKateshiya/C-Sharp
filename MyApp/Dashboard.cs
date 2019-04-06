@@ -17,44 +17,85 @@ namespace MyApp
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+          
+            panel.Height = btnHome.Height;
+            panel.Top = btnHome.Top;
+
+            home1.Show();
+            home1.BringToFront();
+            
+
+        }
+
         private void button2_Click(object sender, EventArgs e)
         {
-            panel.Height = button2.Height;
-            panel.Top = button2.Top;
+            
+            panel.Height = btnApps.Height;
+            panel.Top = btnApps.Top;
+
+            apps1.Show();
+            apps1.BringToFront();
+
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            panel.Height = button3.Height;
-            panel.Top = button3.Top;
+         
+            panel.Height = btnMedia.Height;
+            panel.Top = btnMedia.Top;
+
+            media1.Show();
+            media1.BringToFront();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            panel.Height = button1.Height;
-            panel.Top = button1.Top;
-            
-            
-        }
+      
 
         private void button4_Click(object sender, EventArgs e)
         {
-            panel.Height = button4.Height;
-            panel.Top = button4.Top;
+      
+            panel.Height = btnFiles.Height;
+            panel.Top = btnFiles.Top;
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            panel.Height = button5.Height;
-            panel.Top = button5.Top;
-        }
 
+            panel.Height = btnLout.Height;
+            panel.Top = btnLout.Top;
+
+           
+
+            
+        }
        
 
         private void button6_Click(object sender, EventArgs e)
         {
-            panel.Height = button6.Height;
-            panel.Top = button6.Top;
+            panel.Height = btnEmail.Height;
+            panel.Top = btnEmail.Top;
+
+            email1.Show();
+            email1.BringToFront();
+        
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            panel.Height = btnNotes.Height;
+            panel.Top = btnNotes.Top;
+
+            notes1.Show();
+            notes1.BringToFront();
+        
+        }
+
+        private void Dashboard_Load(object sender, EventArgs e)
+        {       
+            home1.BringToFront();
+        }
+
+        
     }
 }
