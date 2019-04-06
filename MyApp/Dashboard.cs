@@ -58,7 +58,7 @@ namespace MyApp
             panel.Height = btnFiles.Height;
             panel.Top = btnFiles.Top;
 
-
+            
         }
 
         private void button5_Click(object sender, EventArgs e)

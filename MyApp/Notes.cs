@@ -20,30 +20,39 @@ namespace MyApp
 
         private void save_Click(object sender, EventArgs e)
         {
-
-            SaveFileDialog save = new SaveFileDialog();
-            save.Title = "Save Note";
-            save.Filter = "Text Files (*.txt)|*.txt";
-            save.FileName = subject.Text;
-
-            if (save.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            if (subject.Text == "" || subject.Text == " ")
             {
-                StreamWriter write = new StreamWriter(File.Create(save.FileName));
+                MessageBox.Show("Please Enter The Subject", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else
+            {
+
+                SaveFileDialog save = new SaveFileDialog();
+                save.Title = "Save Note";
+                save.Filter = "Text Files (*.txt)|*.txt";
+                save.FileName = subject.Text;
+
+                if (save.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+                {
+                    StreamWriter write = new StreamWriter(File.Create(save.FileName));
 
                     write.Write(note.Text);
                     write.Dispose();
+                }
+
             }
-
-
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             OpenFileDialog open = new OpenFileDialog();
             open.Title = "Open Note";
-            open.Filter = "Text Files  (*.txt)|*.txt"; 
+            open.Filter = "Text Files  (*.txt)|*.txt";
+            
+
             if (open.ShowDialog() == DialogResult.OK)
             {
+                
                 StreamReader read = new StreamReader(File.OpenRead(open.FileName));
                 note.Text = read.ReadToEnd();
                 read.Dispose();
