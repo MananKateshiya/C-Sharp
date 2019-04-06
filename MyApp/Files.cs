@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace MyApp
 {
-    public partial class Home : UserControl
+    public partial class Files : UserControl
     {
-        public Home()
+        public Files()
         {
             InitializeComponent();
         }
-
-        private void Home_Load(object sender, EventArgs e)
-        {
-            Show();
-            BringToFront();
-        }
-
-   
     }
 }

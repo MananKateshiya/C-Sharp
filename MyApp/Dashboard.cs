@@ -57,6 +57,8 @@ namespace MyApp
       
             panel.Height = btnFiles.Height;
             panel.Top = btnFiles.Top;
+
+
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -65,8 +67,17 @@ namespace MyApp
             panel.Height = btnLout.Height;
             panel.Top = btnLout.Top;
 
-           
-
+            if (MessageBox.Show("Are you sure?","Logout",MessageBoxButtons.YesNo,MessageBoxIcon.Question ) == DialogResult.Yes)
+            {
+                Dispose();
+                Close();
+            }
+            else
+            {                
+                home1.Show();
+                home1.BringToFront();
+            }
+                 
             
         }
        

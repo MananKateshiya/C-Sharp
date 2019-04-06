@@ -133,9 +133,29 @@ namespace MyApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap exitgif1 {
+            get {
+                object obj = ResourceManager.GetObject("exitgif1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap files_32 {
             get {
                 object obj = ResourceManager.GetObject("files_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap greencircle_32 {
+            get {
+                object obj = ResourceManager.GetObject("greencircle_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,6 +223,36 @@ namespace MyApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap open_32 {
+            get {
+                object obj = ResourceManager.GetObject("open_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap orangecircle_32 {
+            get {
+                object obj = ResourceManager.GetObject("orangecircle_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap redcircle_32 {
+            get {
+                object obj = ResourceManager.GetObject("redcircle_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap save_16 {
             get {
                 object obj = ResourceManager.GetObject("save_16", resourceCulture);
@@ -226,6 +276,16 @@ namespace MyApp.Properties {
         internal static System.Drawing.Bitmap wapp_32 {
             get {
                 object obj = ResourceManager.GetObject("wapp_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap whitecircle_32 {
+            get {
+                object obj = ResourceManager.GetObject("whitecircle_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

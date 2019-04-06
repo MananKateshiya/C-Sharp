@@ -64,6 +64,12 @@
     <Compile Include="Email.Designer.cs">
       <DependentUpon>Email.cs</DependentUpon>
     </Compile>
+    <Compile Include="Files.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Files.Designer.cs">
+      <DependentUpon>Files.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -92,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Email.resx">
       <DependentUpon>Email.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Files.resx">
+      <DependentUpon>Files.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
@@ -175,6 +184,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\exitgif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whitecircle_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greencircle_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orangecircle_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redcircle_32.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
