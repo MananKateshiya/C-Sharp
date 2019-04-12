@@ -38,16 +38,16 @@
             this.to = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.uname = new System.Windows.Forms.TextBox();
-            this.passwd = new System.Windows.Forms.MaskedTextBox();
-            this.smtp = new System.Windows.Forms.TextBox();
-            this.port = new System.Windows.Forms.TextBox();
-            this.ssl = new System.Windows.Forms.CheckBox();
             this.send = new System.Windows.Forms.Button();
+            this.ssl = new System.Windows.Forms.CheckBox();
+            this.port = new System.Windows.Forms.TextBox();
+            this.smtp = new System.Windows.Forms.TextBox();
+            this.passwd = new System.Windows.Forms.MaskedTextBox();
+            this.uname = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -167,82 +167,6 @@
             this.groupBox2.TabIndex = 9;
             this.groupBox2.TabStop = false;
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(21, 26);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(108, 25);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Username:";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(21, 88);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(104, 25);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "Password:";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(364, 73);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(53, 25);
-            this.label7.TabIndex = 2;
-            this.label7.Text = "Port:";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(364, 26);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(64, 25);
-            this.label8.TabIndex = 3;
-            this.label8.Text = "Smtp:";
-            // 
-            // uname
-            // 
-            this.uname.Location = new System.Drawing.Point(135, 23);
-            this.uname.Name = "uname";
-            this.uname.Size = new System.Drawing.Size(223, 30);
-            this.uname.TabIndex = 4;
-            // 
-            // passwd
-            // 
-            this.passwd.Location = new System.Drawing.Point(135, 85);
-            this.passwd.Name = "passwd";
-            this.passwd.Size = new System.Drawing.Size(223, 30);
-            this.passwd.TabIndex = 5;
-            // 
-            // smtp
-            // 
-            this.smtp.Location = new System.Drawing.Point(434, 23);
-            this.smtp.Name = "smtp";
-            this.smtp.Size = new System.Drawing.Size(223, 30);
-            this.smtp.TabIndex = 6;
-            this.smtp.Text = "smtp.gmail.com";
-            // 
-            // port
-            // 
-            this.port.Location = new System.Drawing.Point(434, 70);
-            this.port.Name = "port";
-            this.port.Size = new System.Drawing.Size(64, 30);
-            this.port.TabIndex = 7;
-            this.port.Text = "587";
-            // 
-            // ssl
-            // 
-            this.ssl.AutoSize = true;
-            this.ssl.Location = new System.Drawing.Point(434, 106);
-            this.ssl.Name = "ssl";
-            this.ssl.Size = new System.Drawing.Size(73, 29);
-            this.ssl.TabIndex = 8;
-            this.ssl.Text = "SSL";
-            this.ssl.UseVisualStyleBackColor = true;
-            // 
             // send
             // 
             this.send.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
@@ -259,6 +183,83 @@
             this.send.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.send.UseVisualStyleBackColor = false;
             this.send.Click += new System.EventHandler(this.send_Click);
+            // 
+            // ssl
+            // 
+            this.ssl.AutoSize = true;
+            this.ssl.Location = new System.Drawing.Point(434, 106);
+            this.ssl.Name = "ssl";
+            this.ssl.Size = new System.Drawing.Size(73, 29);
+            this.ssl.TabIndex = 8;
+            this.ssl.Text = "SSL";
+            this.ssl.UseVisualStyleBackColor = true;
+            // 
+            // port
+            // 
+            this.port.Location = new System.Drawing.Point(434, 70);
+            this.port.Name = "port";
+            this.port.Size = new System.Drawing.Size(64, 30);
+            this.port.TabIndex = 7;
+            this.port.Text = "587";
+            // 
+            // smtp
+            // 
+            this.smtp.Location = new System.Drawing.Point(434, 23);
+            this.smtp.Name = "smtp";
+            this.smtp.Size = new System.Drawing.Size(223, 30);
+            this.smtp.TabIndex = 6;
+            this.smtp.Text = "smtp.gmail.com";
+            // 
+            // passwd
+            // 
+            this.passwd.Location = new System.Drawing.Point(135, 85);
+            this.passwd.Name = "passwd";
+            this.passwd.Size = new System.Drawing.Size(223, 30);
+            this.passwd.TabIndex = 5;
+            this.passwd.UseSystemPasswordChar = true;
+            // 
+            // uname
+            // 
+            this.uname.Location = new System.Drawing.Point(135, 23);
+            this.uname.Name = "uname";
+            this.uname.Size = new System.Drawing.Size(223, 30);
+            this.uname.TabIndex = 4;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(364, 26);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(64, 25);
+            this.label8.TabIndex = 3;
+            this.label8.Text = "Smtp:";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(364, 73);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(53, 25);
+            this.label7.TabIndex = 2;
+            this.label7.Text = "Port:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(21, 88);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(104, 25);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "Password:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(21, 26);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(108, 25);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Username:";
             // 
             // Email
             // 

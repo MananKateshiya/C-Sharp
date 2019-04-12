@@ -160,6 +160,9 @@
   <data name="apps_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\apps_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="connect_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\connect_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="logout_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logout_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -189,5 +192,8 @@
   </data>
   <data name="send_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\send_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chat_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chat_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

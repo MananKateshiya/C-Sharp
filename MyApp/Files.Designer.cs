@@ -28,7 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
+            ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // fileSystemWatcher1
+            // 
+            this.fileSystemWatcher1.EnableRaisingEvents = true;
+            this.fileSystemWatcher1.Path = "E:\\Movies & Masti\\Movies";
+            this.fileSystemWatcher1.SynchronizingObject = this;
             // 
             // Files
             // 
@@ -37,10 +45,13 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.Name = "Files";
             this.Size = new System.Drawing.Size(698, 634);
+            ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.IO.FileSystemWatcher fileSystemWatcher1;
     }
 }

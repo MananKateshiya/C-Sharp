@@ -77,6 +77,12 @@
     <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
+    <Compile Include="LanChat.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LanChat.Designer.cs">
+      <DependentUpon>LanChat.cs</DependentUpon>
+    </Compile>
     <Compile Include="Media.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -105,6 +111,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LanChat.resx">
+      <DependentUpon>LanChat.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Media.resx">
       <DependentUpon>Media.cs</DependentUpon>
@@ -203,6 +212,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\send_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\connect_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chat_32.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -55,9 +55,13 @@ namespace MyApp
         private void button4_Click(object sender, EventArgs e)
         {
       
-            panel.Height = btnFiles.Height;
-            panel.Top = btnFiles.Top;
+            panel.Height = btnLanChat.Height;
+            panel.Top = btnLanChat.Top;
 
+            lanChat1.Show();
+            lanChat1.BringToFront();
+
+           
             
         }
 

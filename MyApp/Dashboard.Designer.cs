@@ -34,7 +34,7 @@
             this.btnEmail = new System.Windows.Forms.Button();
             this.panel = new System.Windows.Forms.Panel();
             this.btnLout = new System.Windows.Forms.Button();
-            this.btnFiles = new System.Windows.Forms.Button();
+            this.btnLanChat = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
             this.btnMedia = new System.Windows.Forms.Button();
             this.btnApps = new System.Windows.Forms.Button();
@@ -42,12 +42,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.apps1 = new MyApp.Apps();
+            this.home1 = new MyApp.Home();
+            this.files1 = new MyApp.Files();
+            this.notes2 = new MyApp.Notes();
+            this.notes1 = new MyApp.Notes();
             this.email1 = new MyApp.Email();
             this.media1 = new MyApp.Media();
-            this.home1 = new MyApp.Home();
-            this.notes1 = new MyApp.Notes();
-            this.notes2 = new MyApp.Notes();
-            
+            this.lanChat1 = new MyApp.LanChat();
             this.menu.SuspendLayout();
             this.index.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -60,7 +61,7 @@
             this.menu.Controls.Add(this.btnEmail);
             this.menu.Controls.Add(this.panel);
             this.menu.Controls.Add(this.btnLout);
-            this.menu.Controls.Add(this.btnFiles);
+            this.menu.Controls.Add(this.btnLanChat);
             this.menu.Controls.Add(this.btnHome);
             this.menu.Controls.Add(this.btnMedia);
             this.menu.Controls.Add(this.btnApps);
@@ -145,26 +146,26 @@
             this.btnLout.UseVisualStyleBackColor = false;
             this.btnLout.Click += new System.EventHandler(this.button5_Click);
             // 
-            // btnFiles
+            // btnLanChat
             // 
-            this.btnFiles.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(59)))), ((int)(((byte)(59)))));
-            this.btnFiles.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnFiles.FlatAppearance.BorderSize = 0;
-            this.btnFiles.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btnFiles.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFiles.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.btnFiles.ForeColor = System.Drawing.Color.White;
-            this.btnFiles.Image = global::MyApp.Properties.Resources.files_32;
-            this.btnFiles.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFiles.Location = new System.Drawing.Point(0, 334);
-            this.btnFiles.Name = "btnFiles";
-            this.btnFiles.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
-            this.btnFiles.Size = new System.Drawing.Size(247, 69);
-            this.btnFiles.TabIndex = 4;
-            this.btnFiles.Text = "   Files";
-            this.btnFiles.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnFiles.UseVisualStyleBackColor = false;
-            this.btnFiles.Click += new System.EventHandler(this.button4_Click);
+            this.btnLanChat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(59)))), ((int)(((byte)(59)))));
+            this.btnLanChat.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLanChat.FlatAppearance.BorderSize = 0;
+            this.btnLanChat.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnLanChat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLanChat.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.btnLanChat.ForeColor = System.Drawing.Color.White;
+            this.btnLanChat.Image = global::MyApp.Properties.Resources.chat_32;
+            this.btnLanChat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLanChat.Location = new System.Drawing.Point(0, 334);
+            this.btnLanChat.Name = "btnLanChat";
+            this.btnLanChat.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
+            this.btnLanChat.Size = new System.Drawing.Size(247, 69);
+            this.btnLanChat.TabIndex = 4;
+            this.btnLanChat.Text = "LanChat";
+            this.btnLanChat.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnLanChat.UseVisualStyleBackColor = false;
+            this.btnLanChat.Click += new System.EventHandler(this.button4_Click);
             // 
             // btnHome
             // 
@@ -272,6 +273,37 @@
             this.apps1.Size = new System.Drawing.Size(698, 634);
             this.apps1.TabIndex = 2;
             // 
+            // home1
+            // 
+            this.home1.Location = new System.Drawing.Point(253, 0);
+            this.home1.Name = "home1";
+            this.home1.Size = new System.Drawing.Size(698, 634);
+            this.home1.TabIndex = 1;
+            // 
+            // files1
+            // 
+            this.files1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.files1.Location = new System.Drawing.Point(256, 0);
+            this.files1.Name = "files1";
+            this.files1.Size = new System.Drawing.Size(698, 634);
+            this.files1.TabIndex = 7;
+            // 
+            // notes2
+            // 
+            this.notes2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.notes2.Location = new System.Drawing.Point(256, 0);
+            this.notes2.Name = "notes2";
+            this.notes2.Size = new System.Drawing.Size(698, 634);
+            this.notes2.TabIndex = 6;
+            // 
+            // notes1
+            // 
+            this.notes1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.notes1.Location = new System.Drawing.Point(256, 0);
+            this.notes1.Name = "notes1";
+            this.notes1.Size = new System.Drawing.Size(698, 634);
+            this.notes1.TabIndex = 5;
+            // 
             // email1
             // 
             this.email1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
@@ -288,47 +320,31 @@
             this.media1.Size = new System.Drawing.Size(698, 634);
             this.media1.TabIndex = 3;
             // 
-            // home1
+            // lanChat1
             // 
-            this.home1.Location = new System.Drawing.Point(253, 0);
-            this.home1.Name = "home1";
-            this.home1.Size = new System.Drawing.Size(698, 634);
-            this.home1.TabIndex = 1;
-            // 
-            // notes1
-            // 
-            this.notes1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.notes1.Location = new System.Drawing.Point(256, 0);
-            this.notes1.Name = "notes1";
-            this.notes1.Size = new System.Drawing.Size(698, 634);
-            this.notes1.TabIndex = 5;
-            // 
-            // notes2
-            // 
-            this.notes2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.notes2.Location = new System.Drawing.Point(256, 0);
-            this.notes2.Name = "notes2";
-            this.notes2.Size = new System.Drawing.Size(698, 634);
-            this.notes2.TabIndex = 6;
-          
+            this.lanChat1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.lanChat1.Location = new System.Drawing.Point(256, 0);
+            this.lanChat1.Name = "lanChat1";
+            this.lanChat1.Size = new System.Drawing.Size(698, 634);
+            this.lanChat1.TabIndex = 8;
             // 
             // Dashboard
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(951, 634);
-            
             this.Controls.Add(this.apps1);
+            this.Controls.Add(this.home1);
+            this.Controls.Add(this.lanChat1);
+            this.Controls.Add(this.files1);
             this.Controls.Add(this.notes2);
             this.Controls.Add(this.notes1);
             this.Controls.Add(this.email1);
             this.Controls.Add(this.media1);
-            this.Controls.Add(this.home1);
             this.Controls.Add(this.menu);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MyDashboard";
@@ -350,7 +366,7 @@
         private System.Windows.Forms.Button btnMedia;
         private System.Windows.Forms.Button btnApps;
         private System.Windows.Forms.Button btnHome;
-        private System.Windows.Forms.Button btnFiles;
+        private System.Windows.Forms.Button btnLanChat;
         private System.Windows.Forms.Button btnLout;
         private System.Windows.Forms.Button btnEmail;
         private System.Windows.Forms.PictureBox pictureBox2;
@@ -361,7 +377,8 @@
         private Email email1;
         private Notes notes1;
         private Notes notes2;
-        
+        private Files files1;
+        private LanChat lanChat1;
     }
 }
 

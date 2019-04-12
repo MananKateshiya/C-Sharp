@@ -27,7 +27,7 @@ namespace MyApp
 
         private void send_Click(object sender, EventArgs e)
         {
-
+        
             login = new NetworkCredential(uname.Text, passwd.Text);
             client = new SmtpClient(smtp.Text);
             client.Port = Convert.ToInt32(port.Text);
